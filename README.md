@@ -7,6 +7,25 @@ lbm: 格子ボルツマン法(LBM)に基づくシミュレーションを行うA
 ml: LBMで生成したデータを教師データとしてGANsの訓練を行う
 
 
+├─lbm
+│  ├─main
+│  ├─param
+│  ├─particle
+│  ├─utils
+│  │  ├─geoms
+│  │  ├─.ipynb_checkpoints
+│  │  └─__pycache__
+│  ├─cuda
+│  ├─geom5
+│  ├─geom
+│  ├─vtk
+│  │  └─2023-04-01-08-32_water-0.1_00000
+│  └─calc_condition
+│      └─2023-04-01-08-32_water-0.1_00000
+└─ml
+    └─models
+        └─__pycache__
+
 ## 訓練方法
 
 
