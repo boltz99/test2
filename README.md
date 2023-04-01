@@ -1,4 +1,11 @@
-# test2
+# Insight Flow
+壁からの距離や流入口からの距離などSDF(Signed Distance Function)を入力に
+入力したジオメトリの準定常状態の流速分布を出力するGANs
+
+## フォルダ構成
+lbm: 格子ボルツマン法(LBM)に基づくシミュレーションを行うAPI
+ml: LBMで生成したデータを教師データとしてGANsの訓練を行う
+
 
 ## 訓練方法
 
