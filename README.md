@@ -8,23 +8,19 @@
 
 ```
 ├─lbm
-│  ├─main
-│  ├─param
-│  ├─particle
-│  ├─utils
-│  │  ├─geoms
-│  │  ├─.ipynb_checkpoints
-│  │  └─__pycache__
-│  ├─cuda
-│  ├─geom5
-│  ├─geom
-│  ├─vtk
-│  │  └─2023-04-01-08-32_water-0.1_00000
-│  └─calc_condition
-│      └─2023-04-01-08-32_water-0.1_00000
-└─ml
-    └─models
-        └─__pycache__
+│  ├─main: メインプログラムなどが入っている
+│  ├─param : シミュレーションのパラメータを設定する
+│  ├─particle : 粒子シミュレーションを行うときに使用
+│  ├─utils : 種々のユーティリティが入っている
+│  │ └─geoms
+│  ├─cuda : LBMのCUDAコードが入っている
+│  ├─geom : シミュレーションを行うジオメトリを格納
+│  ├─vtk : シミュレーション結果をParaViewで可視化するための可視化ファイル格納場所
+│  │ 
+│  └─calc_condition : シミュレーションをするたびにシミュレーション条件が格納されていく
+│    
+└─ml: GANsの訓練を行うためのファイル群が入っている
+    └─models : UNetのアーキテクチャが入っている
 ```
 ## 訓練方法
 
